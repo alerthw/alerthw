@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+body {
+  align-items: center;
+  background-color: #17181b;
+  display: flex;
+  font-family: 'Nunito Sans', sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background: #22242c;
+  border-radius: 10px;
+  height: 560px;
+  left: 50%;
+  max-width: 440px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+#banner {
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  width: 100%;
+}
+
+.icon-container {
+  height: 80px;
+  left: 15px;
+  position: absolute;
+  top: 50px;
+  width: 80px;
+}
+
+#avatar {
+  border: solid #22242c 7px;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.status-circle {
+  background-color: #00c921;
+  border: 2px solid white;
+  border-radius: 50%;
+  bottom: 0;
+  height: 15px;
+  left: 80%;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  width: 15px;
+  border: solid #22242c 7px;
+}
+
+.badges {
+  background-color: #111214;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin-top: 5px;
+  position: absolute;
+  right: 5%;
+}
+
+.content {
+  background-color: #111214;
+  border-radius: 10px;
+  bottom: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  left: 5%;
+  position: absolute;
+  right: 5%;
+  top: 160px; /* Высота баннера + высота аватара + отступ */
+}
+
+object {
+  margin: 0 3px 0 3px;
+}
+
+hr {
+  border: 1px solid #3d3d3d;
+  border-bottom-width: 0;
+  box-sizing: border-box; /* Учитываем границы в расчете ширины и отступов */
+  margin: 10px auto; /* Отступы сверху и снизу: 20px, отступы слева и справа: авто */
+  width: 95%; /* Ширина горизонтальной линии */
+}
+
+h3 {
+  margin: 5px 0 0 0;
+  padding-left: 3%;
+}
+
+h5 {
+  margin: 0 auto 0;
+  padding-left: 3%;
+}
+
+h6 {
+  font-weight: 500;
+  margin: 0;
+  padding-left: 3%;
+}
+
+p {
+  margin: 0.5px 0;
+  padding-left: 3%;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-height: 100vh;
+    width: 100%;
+  }
+  .content {
+    height:fit-content;
+    padding-bottom: 10px;
+  }
+  
+}
+
+p img {
+    vertical-align: middle;
+}
+
+.activity {
+  display: flex;
+  align-items: flex-start;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+a {
+  margin: 0 6px 0 6px;
+  font-size: 30px;
+}
+
+a,  a:active, a:visited { color: white; }
+#github:hover{
+  color: #777575;
+}
+#discord:hover{
+  color:#7289da;
+}
+#telegram:hover{
+  color:#229ED9;
+}
+
